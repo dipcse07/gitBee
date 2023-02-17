@@ -13,6 +13,7 @@
 		42261B86299B81BE007C47F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42261B85299B81BE007C47F0 /* ContentView.swift */; };
 		42261B88299B81BF007C47F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42261B87299B81BF007C47F0 /* Assets.xcassets */; };
 		42261B8C299B81BF007C47F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42261B8B299B81BF007C47F0 /* Preview Assets.xcassets */; };
+		42261B94299B820E007C47F0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42261B93299B820E007C47F0 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42261B87299B81BF007C47F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42261B89299B81BF007C47F0 /* gitBee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gitBee.entitlements; sourceTree = "<group>"; };
 		42261B8B299B81BF007C47F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42261B93299B820E007C47F0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42261B94299B820E007C47F0 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				42261B7D299B81BE007C47F0 /* gitBee */,
 				42261B7C299B81BE007C47F0 /* Products */,
+				42261B92299B820E007C47F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +77,14 @@
 				42261B8B299B81BF007C47F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42261B92299B820E007C47F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42261B93299B820E007C47F0 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
