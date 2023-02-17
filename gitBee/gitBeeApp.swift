@@ -15,6 +15,8 @@ struct gitBeeApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            //commenting for checking
+            
         }
     }
 }
